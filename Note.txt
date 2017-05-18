@@ -1,0 +1,4 @@
+*** This should be solved, but just in case...
+
+
+Before running the program, ensure that the dstock.csv files coins are to 2 decimal places, i.e 2 is 2.00 and 0.5 is 0.50.
