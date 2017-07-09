@@ -46,6 +46,7 @@ def products_to_dict(prod_file):
             products[int(row[0])] = value
     return products
 
+
 # data in dict format
 currency = curr_to_dict('currency.csv')
 denom_stock = denom_stock_to_dict('dstock.csv', 'GBP')
@@ -217,6 +218,7 @@ def prod_updated_csv(in_csv, out_csv):
             writer.writerow(({field: upd_products[key].get(field) for
                              field in fields}))
 
+
 prod_updated_csv('purchase_log.csv', 'products_updated_temp.csv')
 
 
@@ -234,6 +236,7 @@ def add_column(in_csv, out_csv):
         for k, row in enumerate(reader):
             all.append([str(k + 2)] + row)
         writer.writerows(all)
+
 
 add_column('products_updated_temp.csv', 'products_updated.csv')
 
@@ -261,6 +264,7 @@ def denom_updated_csv(in_csv, out_csv):
         csv_out = csv.writer(out_file)
         for row in coin_to_counts:
             csv_out.writerow(row)
+
 
 denom_updated_csv('dstock_log.csv', 'dstock_updated.csv')
 
@@ -310,5 +314,6 @@ def main(code, input_val):
 def test(num):
     for i in range(0, num):
         main(randint(1, 4), round(uniform(0.5, 2) / 0.01) * 0.01)
+
 
 test(100)
