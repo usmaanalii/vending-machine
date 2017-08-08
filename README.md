@@ -17,6 +17,14 @@ This document details the requirements and objectives of the program. In the rep
 - [Usage](#usage)
 - [Example](#example)
 
+**NOTE**
+
+This was my my first experience of programming (outside of self taught HTML/CSS/Javascript), therefore does not represent my current skill level.
+
+Since the time of this project, I have improved massively and gained much more experience (and hours programming).
+
+Other repositories will give a better reflection of where I am currently at. I'm aware that the program is highly inefficient and would have been much better if it utilised an object oriented approach, however at the time this was beyond my capabilities. I preceded to complete the program using a procedural approach (since it was the only way I knew how).
+
 --------------------------------------------------------------------------------
 
 ## Specification
@@ -207,13 +215,3 @@ Insufficient funds<br>
 **NOTE**
 
 I decided to add a `simulations.txt` file which represents the product code and monetary value for each purchase. As you can see, 3/10 attempts were made with insufficient funds. Appropriate messages are displayed in `changes.txt` and counting the difference between the input/output files confirms this.
-
---------------------------------------------------------------------------------
-
-**NOTE**
-
-This was my my first experience of programming (outside of self taught HTML/CSS/Javascript), therefore does not represent my current skill level.
-
-Since the time of this project, I have improved massively and gained much more experience (and hours programming).
-
-Other repositories will give a better reflection of where I am currently at. I'm aware that the program is highly inefficient and would have been much better if it utilised an object oriented approach, however at the time this was beyond my capabilities. I preceded to complete the program using a procedural approach (since it was the only way I knew how).
